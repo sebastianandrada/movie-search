@@ -13,7 +13,7 @@ export class Home extends Component {
 
   _renderResults () {
     return this.state.results.length === 0
-      ? <p>Sorry 😞 Results not founded, could you verify your url? </p>
+      ? <p>NO HEMOS ENCONTRADO NADA</p>
       : <MoviesList movies={this.state.results} />
   }
 
