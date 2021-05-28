@@ -38,7 +38,7 @@ export class Detail extends Component {
     const { Title, Poster, Actors, Plot} = this.state.movie
     return (
       <div>
-        <button onClick={this._goBack}>Come back</button>
+        <button onClick={this._goBack}>Volver</button>
         <h1>{Title}</h1>
         <img src={Poster} />
         <h3> {Actors} </h3>
